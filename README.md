@@ -7,6 +7,12 @@ The dataset URL: https://www.kaggle.com/datasets/CooperUnion/anime-recommendatio
 ```
 Visual representation of the 2nd method (Using Vue.Js)
 
+Prerequisites:
+
+Install if needed
+nodejs: https://nodejs.org/en/download/
+python: https://www.python.org/downloads/
+
 Instructions:
 
 Extract the zip file.
@@ -22,13 +28,9 @@ pandas: pip install pandas
 numpy: pip install numpy
 sklearn: pip install sklearn
 
-Install these if needed:
-nodejs: https://nodejs.org/en/download/
-python: https://www.python.org/downloads/
-
 
 Go back to the cmd window and run this command: python manage.py runserver
-Navigate to the Final_DataMining folder.
+Go to the Final_DataMining folder.
 Open another cmd window in the folder.
 Run this command: npm run dev
 Open the given URL in any browser.
