@@ -6,30 +6,46 @@ The dataset URL: https://www.kaggle.com/datasets/CooperUnion/anime-recommendatio
 ```
 
 # Visual representation of the 2nd method (Using Vue.Js)
-
+![alt text](https://github.com/H-Kann/Anime-Recommendation-System/blob/main/ARS%20Wallaper.png)
 ## Prerequisites:
 
-Install if needed
-⋅⋅* [nodejs](https://nodejs.org/en/download/)
-⋅⋅* [python](https://www.python.org/downloads/)
+Install if needed</br>
+* [nodejs](https://nodejs.org/en/download/)
+
+* [python](https://www.python.org/downloads/)
 
 ## Instructions:
 
 1. Extract the zip file.
+ 
 2. Navigate to the Project folder.
+
 3. Open cmd in the folder.
-⋅⋅* Run these commands: vnv\Scripts\activate
+ 
+4. Run this command: 
+```python
+* vnv\Scripts\activate
+```
+### Note: the following commands should only be run once, after the first time there's no need to run them again
+```python
+* django: pip install Django
+* django rest framework: pip install djangorestframework
+* django cors headers: pip install django-cors-headers
+* pandas: pip install pandas
+* numpy: pip install numpy
+* sklearn: pip install sklearn
+```
 
-⋅⋅* django: pip install Django
-⋅⋅* django rest framework: pip install djangorestframework
-⋅⋅* django cors headers: pip install django-cors-headers
-⋅⋅* pandas: pip install pandas
-⋅⋅* numpy: pip install numpy
-⋅⋅* sklearn: pip install sklearn
+5. Go back to the cmd window and run this command: 
+```python
+python manage.py runserver
+```
+6. Go to the Final_DataMining folder.
+7. Open another cmd window in the folder.
+8. Run this command: 
+```python
+npm run dev
+```
+9. Open the given URL in any browser.
 
-
-4. Go back to the cmd window and run this command: python manage.py runserver
-5. Go to the Final_DataMining folder.
-6. Open another cmd window in the folder.
-7. Run this command: npm run dev
-8. Open the given URL in any browser.
+### Note: When running the above command for the 1st time, the localhost URL might not be visible, scroll up a bit in the cmd window and you'll find it
