@@ -7,9 +7,14 @@ The dataset URL: https://www.kaggle.com/datasets/CooperUnion/anime-recommendatio
 ```
 Visual representation of the 2nd method (Using Vue.Js)
 
-Prerequisites:
-nodejs: https://nodejs.org/en/download/
-python: https://www.python.org/downloads/
+Instructions:
+
+Extract the zip file.
+Navigate to the Project folder.
+Open cmd in the folder.
+
+Run these commands: vnv\Scripts\activate
+
 django: pip install Django
 django rest framework: pip install djangorestframework
 django cors headers: pip install django-cors-headers
@@ -17,13 +22,12 @@ pandas: pip install pandas
 numpy: pip install numpy
 sklearn: pip install sklearn
 
+Install these if needed:
+nodejs: https://nodejs.org/en/download/
+python: https://www.python.org/downloads/
 
-Instructions:
-Extract the zip file.
-Navigate to the Project folder.
-Open cmd in the folder.
-Run this command: vnv\Scripts\activate
-And then this one: python manage.py runserver
+
+Go back to the cmd window and run this command: python manage.py runserver
 Navigate to the Final_DataMining folder.
 Open another cmd window in the folder.
 Run this command: npm run dev
