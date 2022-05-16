@@ -6,6 +6,18 @@ The dataset URL: https://www.kaggle.com/datasets/CooperUnion/anime-recommendatio
 ```
 ```
 Visual representation of the 2nd method (Using Vue.Js)
+
+Prerequisites:
+nodejs: https://nodejs.org/en/download/
+python: https://www.python.org/downloads/
+django: pip install Django
+django rest framework: pip install djangorestframework
+django cors headers: pip install django-cors-headers
+pandas: pip install pandas
+numpy: pip install numpy
+sklearn: pip install sklearn
+
+
 Instructions:
 Extract the zip file.
 Navigate to the Project folder.
